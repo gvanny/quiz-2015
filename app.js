@@ -1,6 +1,9 @@
 var express = require('express');
 var path = require('path');
 
+//Vistas Parciales
+var partials = require('express-partials');
+
 //Se importan paquetes con middlewares
 var favicon = require('serve-favicon');
 var logger = require('morgan');
@@ -13,6 +16,8 @@ var routes = require('./routes/index');
 
 //Creamos la aplicación
 var app = express();
+
+app.use(partials());
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
