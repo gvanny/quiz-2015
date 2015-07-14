@@ -12,22 +12,35 @@ body {
 }
 
 #page-wrap > .main {
-	border: 1px solid #999;
-	padding: 1%;
+	border: 2px solid #000;
 	margin-bottom: 1px;
-	color: black;
+	color: white;
 }
 section > div {
 	padding: 20px;
 }
 header, nav, section {
-	background: #eee;
+	background: #476899;
 	text-align:center;
 }
 footer {
-	background: #eee;
+	background: #476899;
 	text-align:center;
+	color:white;
 }
 nav span {
 	margin:0px 10px 0px 0px;
+}
+
+#n1 a {
+    margin-right: 999px;
+    color: white;
+}
+
+#f1 > a {
+    color: white;
+}
+
+.avatar > img {
+    width: 100px;
 }
